@@ -1,0 +1,189 @@
+body{
+ background-color:  rgb(250, 250, 250) !important;
+ padding-top: 80px;
+}
+
+.feed-nav{
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 12px !important;
+}
+
+
+
+.logo-wrapper{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: 2px solid red;
+}
+
+.navbar-brand{
+  margin-left: 10px;
+}
+
+.nav-link:hover{
+  border-bottom: 2px solid black !important;
+}
+
+
+.f-link{
+  border-bottom: 2px solid black !important;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+
+.feed{
+    margin-top: 40px;
+}
+
+form{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgb(202, 202, 202);
+    padding: 30px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    background: white;
+
+}
+
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.input-field {
+    position: relative;
+    border-bottom: 2px solid black;
+    margin: 15px 0;
+  }
+  
+  .input-field label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.15s ease;
+  }
+  
+  .input-field input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .input-field input:focus ~ label,
+  .input-field input:valid ~ label {
+    font-size: 0.8rem;
+    top: 10px;
+    transform: translateY(-120%);
+  }
+  
+
+  .form-control {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .form-control:focus ~ label,
+  .form-control input:valid ~ label {
+    font-size: 0.8rem;
+    top: 10px;
+    transform: translateY(-120%);
+    border: none;
+    outline: none;
+  }
+
+
+  .form-control:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+
+  .message{
+    outline: none;
+  }
+
+
+ .textarea-container {
+      position: relative;
+      margin-bottom: 20px;
+  }
+
+  textarea {
+      width: 100%;
+      padding: 10px;
+      resize: none;
+      border: none;
+      border-bottom: 2px solid black;
+      outline: none;
+      font-size: 16px;
+      font-family: sans-serif;
+  }
+
+
+  label {
+      position: absolute;
+      top: 12px; 
+      left: 10px; 
+      font-size: 16px;
+      color: gray;
+      pointer-events: none;
+      transition: all 0.2s;
+      background: transparent;
+  }
+
+  textarea:focus + label,
+  textarea:not(:placeholder-shown) + label {
+      top: -10px;
+      left: 10px;
+      font-size: 12px;
+      background: transparent;
+      color: black;
+      background-color: white;
+      padding: 0 4px; 
+  }
+
+
+
+  .support-image {
+    position: absolute;
+    top: 55%;
+    right: 10%;
+    width: 35%; /* Adjust width as needed */
+    height: 300px;
+    z-index: 3; /* Ensure the image stays behind the form */
+    /* Other styles for your image */
+  }
+  
+
+  .footer{
+    background-color: white !important;
+  }
+
+
+
+
+
+  

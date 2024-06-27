@@ -1,0 +1,116 @@
+
+body{
+    font-family: "Poppins", sans-serif;
+    padding-top: 100px;
+}
+
+.scrolled-nav {
+    background-color:white; 
+    box-shadow: 0 4px 8px rgba(230, 230, 230, 0.4);
+    transition: background-color 0.3s ease; 
+}
+
+
+
+.navbar{
+    background-color: white;
+}
+
+
+.scrolled-nav .logo-wrapper{
+    background: white;
+}
+
+
+
+header{
+    background-color: white;
+}
+
+.hero{
+    margin-left: 50px;
+}
+
+
+.start{
+    padding: 3px;
+    margin-top: 25px;
+}
+
+.logo-wrapper{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: 2px solid red;
+    margin: 4px;
+    margin-right: 10px;
+}
+
+.social-rape{
+    display: block;
+    padding-top: 15px;
+}
+
+.social1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.social2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: -14px;
+}
+
+.social3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: -14px;
+}
+
+.social4 {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: -14px;
+    margin-right: 5px;
+}
+
+
+
+.active-link{
+    border-bottom: 2px solid black;
+}
+
+
+.nav-link:hover{
+    border-bottom: 2px solid black;
+}
+
+
+.f-card:hover {
+    transform: rotate(1deg);
+    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(255, 187, 187, 0.363);
+    transform: scale(1.05);
+}
+
+
+.t-card:hover {
+    transform: rotate(1deg);
+    transition: transform 0.3s ease;
+    transition: all 0.3s ease;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(255, 187, 187, 0.363);
+    transform: scale(1.05);
+}
+
+.footer{
+    background-color: #f2f2f2;
+}
+

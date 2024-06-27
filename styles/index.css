@@ -1,0 +1,38 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+
+.card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-wrapper{
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    border: 2px solid red;
+    margin: 4px;
+    padding: 2PX;
+}
+
+.nav-link{
+    padding: 5px;
+}
+
+button{
+    padding: 5px;
+}
+
+
+.c-account{
+    color: red !important;
+}

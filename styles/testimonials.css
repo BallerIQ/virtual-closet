@@ -1,0 +1,20 @@
+/* Custom styles for testimonials section */
+.testimonials .testimonial-message {
+    font-size: 1rem; /* Adjust font size as needed */
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.testimonials .rating i {
+    font-size: 1.2rem; /* Adjust star icon size */
+}
+
+/* Shadow style for the card */
+.testimonials .card {
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+
+.t-card{
+    border: none;
+}
